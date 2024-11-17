@@ -1,19 +1,13 @@
 <div align="center">
- <h1>2024 Line4_Thon: <em>여긴 어디 나는 누구</em></h1>
+ <h1>다 함께 만들어 가는 트렌드한 자기소개, 누구</h1>
    <a href="https://nugu-line4.vercel.app/">
     <img width="200px" src="https://github.com/user-attachments/assets/1d96cacb-2f96-4139-8a4f-882eeccf37e0" alt="NUGU로 이동하기"/>
   </a>
- <h3>
- 다 함께 만들어 가는 트렌드한 자기소개, 누구
- </h3>
 </div>
 
-
-### ☁️Service Introduction
-
+## ☁️Service Introduction
 
 > **“나보다 나를 더 잘 아는 친구가 나를 대신 소개한다면?”**
->
 
 여러분, 갑작스러운 자기소개 시간이 부담스럽거나 새로운 사람을 만날 때 나를 어떻게 표현해야 할지 고민해본 적 있으신가요?  
 “누구”는 이러한 고민을 덜어드리고, 자신을 더욱 편하게 소개할 수 있도록 돕는 자기소개 플랫폼입니다.
@@ -26,38 +20,32 @@
 
 다함께 만들어가는 나만의 자기소개, 누구를 통해 가능해집니다.
 
-
- 
-<hr>
-
-
-
-
-
 ## 🌟 주요 기능
 
 ### 1️⃣ **나의 자기소개, 누구**
-- 나만의 프로필 생성 (MBTI, 한 줄 소개, 키워드 등)  
-- 하단의 공유 버튼으로 친구들에게 링크 공유  
+
+- 나만의 프로필 생성 (MBTI, 한 줄 소개, 키워드 등)
+- 하단의 공유 버튼으로 친구들에게 링크 공유
 
 ### 2️⃣ **친구가 작성하는, 누구 소개**
-- 친구들이 나를 표현하는 키워드 투표 및 간단한 소개 작성  
-- 상위 3개의 키워드를 통해 내가 몰랐던 새로운 모습 발견  
+
+- 친구들이 나를 표현하는 키워드 투표 및 간단한 소개 작성
+- 상위 3개의 키워드를 통해 내가 몰랐던 새로운 모습 발견
 
 ### 3️⃣ **다함께 즐기는, 누구 테스트**
-- 10가지 질문으로 구성된 퀴즈 형식의 테스트  
-- 소유자와 접속자가 서로를 더 잘 알 수 있도록 설계  
+
+- 10가지 질문으로 구성된 퀴즈 형식의 테스트
+- 소유자와 접속자가 서로를 더 잘 알 수 있도록 설계
 
 ---
 
 ## 🎨 View & Feature
+
  <img width="100%" src="https://github.com/user-attachments/assets/51c675f3-4ae6-4ad8-81d7-814dfc8888d0" alt="NUGU로 이동하기"/>
   <img width="100%" src="https://github.com/user-attachments/assets/75c4754f-617e-4dca-aac8-d6426e6a6975" alt="NUGU로 이동하기"/>
    <img width="100%" src="https://github.com/user-attachments/assets/44d282a2-811c-423a-9493-09ffe33ad8a5" alt="NUGU로 이동하기"/>
     <img width="100%" src="https://github.com/user-attachments/assets/a8fbf4ac-a802-438b-b263-cf89f3ad80b7" alt="NUGU로 이동하기"/>
 
-
-    
 ## 🛠 Development Tools & Environment
 
 ### 주요 기술 스택
@@ -69,6 +57,7 @@
 <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-3.1.0-6DB33F?logo=springboot&logoColor=white&style=for-the-badge"> 
 <img alt="AWS EC2" src="https://img.shields.io/badge/AWS%20EC2-%23FF9900.svg?logo=amazonaws&logoColor=white&style=for-the-badge"> 
 <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge">
+
 ## 💻 Code Convention
 
 ### Git Flow 전략 및 협업방식
@@ -83,13 +72,14 @@
 **개발 시작 시**
 
     1.	Upstream Repository에서 Issue를 생성합니다.
-    2.	Origin Repository의 Dev 브랜치에서 새로운 브랜치를 생성합니다.
+    2.	Origin Repository의 develop 브랜치에서 새로운 브랜치를 생성합니다.
     3.	로컬에서 Fetch하여 새로운 브랜치를 가져옵니다.
     4.	해당 브랜치로 체크아웃(checkout)한 후 기능 개발을 진행합니다.
 
     - 기능 개발: feature/#[Issue 번호]
     - 버그 수정: fix/#[Issue 번호]
     - 리팩토링: refactor/#[Issue 번호]
+
 **개발 종료 시**
 
     1.	기능 개발이 완료되면 Origin Repository의 해당 브랜치(feature, fix, refactor)로 변경 사항을 푸시합니다.
@@ -104,15 +94,9 @@
     1.	릴리즈 버전을 낼 때는 Upstream의 dev 브랜치에서 main 브랜치로 PR을 보냅니다.
     2.	모든 사용자가 코드를 재확인한 후 머지(merge)합니다.
 
+### Commit & PR Convention
 
-
-**Commit & PR Convention**
-
-<table>
-  <tr>
-    <td>
-
-### Commit Convention
+**Commit Convention**
 
 | Commit Type | Description           |
 | ----------- | --------------------- |
@@ -123,31 +107,25 @@
 | Design      | CSS 등 사용자 UI 변경 |
 | Test        | 로직 및 코드 테스트   |
 
-</td>
-    <td>
+**PR Convention**
 
-
-### PR Convention
-
-| Icon                        | Description                      |
-| --------------------------  | -------------------------------- |
-| [Design]/#(branch_name)     |  UI/스타일 파일 추가/수정         |
-| [Feature]/#(branch_name)   | 새로운 기능 도입                 |
-| [Fix]/#(branch_name)       | 버그 수정                        |
-| [Test]/#(branch_name)       | 로직 및 코드 테스트              |
-| [Refactoring]/#(branch_name) | 코드 리팩토링                    |
-| [Docs]/#(branch_name)       | Feature 이외에 문서 생성 및 수정 |
+| Naming                        | Description                      |
+| ----------------------------- | -------------------------------- |
+| [Design] #(issue-number)      | UI/스타일 파일 추가/수정         |
+| [Feature] #(issue-number)     | 새로운 기능 도입                 |
+| [Fix] #(issue-number)         | 버그 수정                        |
+| [Test] #(issue-number)        | 로직 및 코드 테스트              |
+| [Refactoring] #(issue-number) | 코드 리팩토링                    |
+| [Docs] #(issue-number)        | Feature 이외에 문서 생성 및 수정 |
 
 </td>
   </tr>
 </table>
 
-
-
-
 ## 📂 프로젝트 폴더 구조
+
 ```plaintext
-📦2024-Hackathon-4-STAR.T-Frontend
+📦Nugu-Frontend
  ┣ 📦.github
  ┃   ┣ 📂ISSUE_TEMPLATE
  ┃   ┃ ┗ 📜FRONT-ISSUE.md
@@ -302,3 +280,4 @@
  ┣ 📜App.jsx
  ┣ 📜main.jsx
  ┗ 📜router.jsx
+```
